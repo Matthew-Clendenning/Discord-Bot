@@ -6,13 +6,9 @@ const commands = [
         name: 'hey',
         description: 'Replies with hey!',
     },
-    {
-        name: 'baka',
-        description: 'Replies with BAAAKAA',
-    },
 ];
 
-const rest = new REST({ version: '10'}).setToken(process.env.TOKEN);
+const rest = new REST({ version: '10 '}).setToken(process.env.TOKEN);
 
 (async () => {
     try {
